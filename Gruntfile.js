@@ -92,6 +92,6 @@ module.exports = function (grunt) {
 
 
   grunt.initConfig(config);
-  grunt.registerTask('serve', ['clean', 'webpack:dev', 'pug', 'connect', 'watch']);
-  grunt.registerTask('build', ['clean', 'webpack:prod', 'pug', 'npm-contributors']);
+  grunt.registerTask('serve', ['clean', 'webpack:dev', 'connect', 'watch']);
+  grunt.registerTask('build', ['clean', 'webpack:prod', 'npm-contributors']);
 };
